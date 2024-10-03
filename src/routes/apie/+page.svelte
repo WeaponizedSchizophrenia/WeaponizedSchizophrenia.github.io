@@ -1,8 +1,9 @@
 <script>
 	import { base } from '$app/paths';
+	import Card from '../../components/Card.svelte';
 </script>
 
-<div class="school">
+<Card>
 	<img
 		src="https://gruso.lt/wp-content/uploads/2021/11/mokyklos-logo-watermark-100.png"
 		alt="Kauno Juozo Grušo meno gimnazijos logotipas"
@@ -11,13 +12,16 @@
 	/>
 	<div class="school-text">
 		<p><strong>Laurynas Ramankevičius.</strong></p>
+
 		<p>
 			Aš mokausi
 			<a href="https://gruso.lt/" class="school-link"> Kauno Juozo Grušo meno gimnazijoje </a>12B
 			klasėje, kuri garsėja kūrybiškumo ir inovacijų skatinimu bei meno ir akademinių disciplinų
 			derinimu.
 		</p>
+
 		<br />
+
 		<p>
 			Esu mokinys, kuris nuolat siekia gilinti savo žinias tiek menų, tiek technologijų srityse.
 			Šiuo metu ypatingai domiuosi dirbtiniu intelektu ir jo galimybėmis spręsti realaus pasaulio
@@ -41,18 +45,9 @@
 			savo horizontus ir tyrinėti pažangiausius technologijų sprendimus.
 		</p>
 	</div>
-</div>
+</Card>
 
 <style>
-	.school {
-		background: #353535;
-		margin: 2rem;
-		padding: 1rem;
-		border-radius: 5rem;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	}
 	img {
 		background: white;
 		border-radius: 100px;
