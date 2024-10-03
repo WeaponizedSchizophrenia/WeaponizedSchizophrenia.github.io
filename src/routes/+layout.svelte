@@ -5,6 +5,8 @@
 <nav>
 	<a href="{base}/">Pagrindinis</a>
 	<a href="{base}/di">Dirbtinis intelektas</a>
+	<a href="{base}/gallery">Dirbtinio intelekto sukurta galerija</a>
+	<a href="{base}/alanturing">Alanas Tiuringas</a>
 	<a href="{base}/apie">Apie</a>
 </nav>
 

@@ -1,9 +1,8 @@
 <script lang="ts">
 	export var display = 'flex';
-	export var style = '';
 </script>
 
-<div class="card" style="display: {display}; {style}">
+<div class="card" style="display: {display};">
 	<slot />
 </div>
 
@@ -11,7 +10,7 @@
 	.card {
 		background: #353535;
 		margin: 2rem;
-		padding: 1rem;
+		padding: 3rem;
 		border-radius: 5rem;
 		justify-content: space-between;
 		align-items: center;

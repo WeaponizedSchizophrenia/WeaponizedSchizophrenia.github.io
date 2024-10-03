@@ -1,8 +1,9 @@
 <script>
+	import { base } from '$app/paths';
 	import Card from '../../components/Card.svelte';
 </script>
 
-<Card display="block" style="padding: 3rem;">
+<Card display="block">
 	<h3>Kas yra Dirbtinis Intelektas?</h3>
 	<p>
 		Dirbtinis intelektas (DI) – tai kompiuterių mokslų sritis, kuri siekia sukurti sistemas,
@@ -11,13 +12,14 @@
 	</p>
 </Card>
 
-<Card display="block" style="padding: 3rem;">
+<Card display="block">
 	<h3>Dirbtinio Intelekto Istorija</h3>
 	<p>
-		Dirbtinio intelekto idėjos atsirado XX amžiaus viduryje, kai mokslininkai, tokie kaip Alanas
-		Turingas, pradėjo kelti klausimus apie mašinų gebėjimą mąstyti. 1956 metais Darthmouto
-		konferencijoje DI buvo pripažinta atskira mokslo sritimi, o nuo tada mokslininkai ėmė kurti
-		algoritmus, kurie galėtų imituoti žmogaus mąstymo procesus.
+		Dirbtinio intelekto idėjos atsirado XX amžiaus viduryje, kai mokslininkai, tokie kaip <a
+			href="{base}/alanturing">Alanas Tiuringas</a
+		>, pradėjo kelti klausimus apie mašinų gebėjimą mąstyti. 1956 metais Darthmouto konferencijoje
+		DI buvo pripažinta atskira mokslo sritimi, o nuo tada mokslininkai ėmė kurti algoritmus, kurie
+		galėtų imituoti žmogaus mąstymo procesus.
 	</p>
 	<p>
 		Viena iš pirmųjų sėkmių buvo kompiuterių programų sukūrimas, galinčių žaisti šachmatais. Nors
@@ -26,7 +28,7 @@
 	</p>
 </Card>
 
-<Card display="block" style="padding: 3rem;">
+<Card display="block">
 	<h3>Kaip veikia Dirbtinis Intelektas?</h3>
 	<p>
 		Šiuolaikiniai DI algoritmai yra pagrįsti <a
@@ -46,7 +48,7 @@
 	</p>
 </Card>
 
-<Card display="block" style="padding: 3rem;">
+<Card display="block">
 	<h3>Dirbtinio Intelekto Tipai</h3>
 	<p>Dirbtinis intelektas skirstomas į kelis tipus, priklausomai nuo jo gebėjimų:</p>
 	<ul>
@@ -65,7 +67,7 @@
 	</ul>
 </Card>
 
-<Card display="block" style="padding: 3rem;">
+<Card display="block">
 	<h3>Kur naudojamas Dirbtinis Intelektas?</h3>
 	<p>Dirbtinis intelektas jau dabar plačiai naudojamas įvairiose srityse:</p>
 	<ul>
