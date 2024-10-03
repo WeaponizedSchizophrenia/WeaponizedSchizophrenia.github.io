@@ -15,7 +15,15 @@
 		margin: 0;
 		padding: 0;
 	}
+	:global(a) {
+		color: white;
+	}
+	:global(a:hover) {
+		color: lightskyblue;
+	}
 	nav {
+		position: sticky;
+		top: 0;
 		display: flex;
 		background: black;
 		padding: 1.25rem 1rem;
@@ -26,6 +34,7 @@
 		margin: 0.25rem 0.5rem;
 		text-decoration: none;
 		transition: transform 0.1s ease-in-out;
+		font-size: 1.2rem;
 	}
 	a:hover {
 		color: #cccccc;

@@ -15,9 +15,8 @@
 
 		<p>
 			Aš mokausi
-			<a href="https://gruso.lt/" class="school-link"> Kauno Juozo Grušo meno gimnazijoje </a>12B
-			klasėje, kuri garsėja kūrybiškumo ir inovacijų skatinimu bei meno ir akademinių disciplinų
-			derinimu.
+			<a href="https://gruso.lt/"> Kauno Juozo Grušo meno gimnazijoje </a>12B klasėje, kuri garsėja
+			kūrybiškumo ir inovacijų skatinimu bei meno ir akademinių disciplinų derinimu.
 		</p>
 
 		<br />
@@ -31,8 +30,7 @@
 
 		<p>
 			Šią svetainę kuriu kaip mokyklinį projektą, kuriuo siekiu supažindinti lankytojus su <a
-				href="{base}/di"
-				class="school-link">dirbtinio intelekto pagrindais.</a
+				href="{base}/di">dirbtinio intelekto pagrindais.</a
 			> Mano tikslas yra paprastai ir suprantamai paaiškinti, kas yra dirbtinis intelektas, kaip jis
 			veikia, bei kokios jo pritaikymo galimybės įvairiose gyvenimo srityse. Tai ne tik edukacinė, bet
 			ir praktinė užduotis, leidžianti man pritaikyti savo žinias ir gilinti supratimą apie šią technologiją.
@@ -60,11 +58,5 @@
 	.school-text > p {
 		color: white;
 		text-wrap: balance;
-	}
-	.school-link {
-		color: white;
-	}
-	.school-link:hover {
-		color: lightskyblue;
 	}
 </style>

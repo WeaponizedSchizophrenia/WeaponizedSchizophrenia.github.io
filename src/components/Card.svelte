@@ -1,4 +1,9 @@
-<div class="card">
+<script lang="ts">
+	export var display = 'flex';
+	export var style = '';
+</script>
+
+<div class="card" style="display: {display}; {style}">
 	<slot />
 </div>
 
@@ -8,7 +13,6 @@
 		margin: 2rem;
 		padding: 1rem;
 		border-radius: 5rem;
-		display: flex;
 		justify-content: space-between;
 		align-items: center;
 	}
